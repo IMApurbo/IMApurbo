@@ -156,8 +156,8 @@ Love hacking, ML, or both? Let’s break something (ethically) or build somethin
      ![Spotify](https://spotify-github-profile.vercel.app/api/spotify?username=[your-spotify-id]&theme=dark)
      ```
    - Include GitHub trophies:
-     ```markdown
+   
      ![Trophies](https://github-profile-trophy.vercel.app/?username=[IMApurbo]&theme=darkhub)
-     ```
+
 
 This README is now ready to copy-paste and tweak. It’s professional, visually engaging, and highlights your hacking/ML vibe. Let me know if you need help with specific customizations or more GIF ideas!
