@@ -21,8 +21,10 @@ I'm a passionate Python developer with a strong interest in automation, web tool
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ## 📊 GitHub Stats
-[![IMApurbo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=IMApurbo&show_icons=true&theme=radical&hide_border=true)](https://github.com/IMApurbo/github-readme-stats)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IMApurbo&layout=compact&theme=radical&hide_border=true)](https://github.com/IMApurbo/github-readme-stats)
+![IMApurbo's GitHub Stats](https://stats.quira.sh/IMApurbo?theme=radical&hide_border=true)
+![Top Languages](https://stats.quira.sh/IMApurbo/top-langs?theme=radical&hide_border=true&layout=compact)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=IMApurbo&theme=radical&hide_border=true)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=IMApurbo&theme=radical&hide_border=true)
 
