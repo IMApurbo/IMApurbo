@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="50%" style="stop-color:#00ffcc"/>
+      <stop offset="100%" style="stop-color:#00ff88"/>
+    </linearGradient>
+    
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="50%" style="stop-color:#0099ff"/>
+      <stop offset="100%" style="stop-color:#00d4ff"/>
+    </linearGradient>
+    
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff00ff"/>
+      <stop offset="50%" style="stop-color:#8800ff"/>
+      <stop offset="100%" style="stop-color:#ff00ff"/>
+    </linearGradient>
+    
+    <!-- Glow Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glitch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="1" result="noise">
+        <animate attributeName="baseFrequency" values="0.01;0.02;0.01" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    
+    <!-- Clip paths -->
+    <clipPath id="hexClip">
+      <polygon points="400,100 550,175 550,325 400,400 250,325 250,175"/>
+    </clipPath>
+  </defs>
+  
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-300px); }
+      100% { transform: translateY(300px); }
+    }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes matrixFall {
+      0% { transform: translateY(-100%); opacity: 1; }
+      100% { transform: translateY(600px); opacity: 0; }
+    }
+    @keyframes blink {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+    @keyframes dataFlow {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes textGlitch {
+      0%, 90%, 100% { transform: translate(0); }
+      92% { transform: translate(-2px, 1px); }
+      94% { transform: translate(2px, -1px); }
+      96% { transform: translate(-1px, -1px); }
+      98% { transform: translate(1px, 1px); }
+    }
+    @keyframes borderPulse {
+      0%, 100% { stroke-width: 2; }
+      50% { stroke-width: 4; }
+    }
+    @keyframes particleFloat {
+      0%, 100% { transform: translateY(0) scale(1); opacity: 0.8; }
+      50% { transform: translateY(-20px) scale(1.2); opacity: 1; }
+    }
+    .matrix-char { animation: matrixFall 3s linear infinite; }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .scan-line { animation: scan 3s ease-in-out infinite; }
+    .rotate { animation: rotate 20s linear infinite; transform-origin: 400px 300px; }
+    .blink { animation: blink 1s step-end infinite; }
+    .data-flow { animation: dataFlow 3s linear infinite; stroke-dasharray: 10 5; }
+    .glitch-text { animation: textGlitch 2s infinite; }
+    .border-pulse { animation: borderPulse 1.5s ease-in-out infinite; }
+    .particle { animation: particleFloat 3s ease-in-out infinite; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ff88" stroke-width="0.5"/>
+    </pattern>
+    <rect width="800" height="600" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Matrix Rain Effect -->
+  <g font-family="monospace" font-size="14" fill="#00ff88" opacity="0.6">
+    <text x="50" y="0" class="matrix-char" style="animation-delay: 0s">01101</text>
+    <text x="100" y="0" class="matrix-char" style="animation-delay: 0.5s">10010</text>
+    <text x="150" y="0" class="matrix-char" style="animation-delay: 1s">11100</text>
+    <text x="200" y="0" class="matrix-char" style="animation-delay: 1.5s">00111</text>
+    <text x="600" y="0" class="matrix-char" style="animation-delay: 0.3s">10101</text>
+    <text x="650" y="0" class="matrix-char" style="animation-delay: 0.8s">01010</text>
+    <text x="700" y="0" class="matrix-char" style="animation-delay: 1.3s">11011</text>
+    <text x="750" y="0" class="matrix-char" style="animation-delay: 1.8s">00100</text>
+  </g>
+  
+  <!-- Rotating Outer Ring -->
+  <g class="rotate" filter="url(#glow)">
+    <circle cx="400" cy="300" r="220" fill="none" stroke="url(#neonGreen)" stroke-width="1" stroke-dasharray="20 10 5 10" opacity="0.5"/>
+    <circle cx="400" cy="300" r="240" fill="none" stroke="url(#neonBlue)" stroke-width="1" stroke-dasharray="5 15 10 15" opacity="0.3"/>
+  </g>
+  
+  <!-- Hexagonal Frame -->
+  <g filter="url(#strongGlow)">
+    <polygon points="400,80 580,170 580,330 400,420 220,330 220,170" 
+             fill="none" stroke="url(#neonGreen)" stroke-width="3" class="border-pulse"/>
+    <polygon points="400,100 560,180 560,320 400,400 240,320 240,180" 
+             fill="none" stroke="url(#neonBlue)" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Circuit Lines -->
+  <g stroke="url(#neonGreen)" stroke-width="2" fill="none" filter="url(#glow)" class="data-flow">
+    <!-- Left circuits -->
+    <path d="M 0 150 L 100 150 L 130 180 L 200 180"/>
+    <path d="M 0 200 L 80 200 L 110 230 L 180 230"/>
+    <path d="M 0 400 L 100 400 L 130 370 L 200 370"/>
+    <path d="M 0 450 L 80 450 L 110 420 L 180 420"/>
+    
+    <!-- Right circuits -->
+    <path d="M 800 150 L 700 150 L 670 180 L 600 180"/>
+    <path d="M 800 200 L 720 200 L 690 230 L 620 230"/>
+    <path d="M 800 400 L 700 400 L 670 370 L 600 370"/>
+    <path d="M 800 450 L 720 450 L 690 420 L 620 420"/>
+  </g>
+  
+  <!-- Circuit Nodes -->
+  <g fill="#00ff88" class="pulse" filter="url(#glow)">
+    <circle cx="200" cy="180" r="4"/>
+    <circle cx="180" cy="230" r="4"/>
+    <circle cx="200" cy="370" r="4"/>
+    <circle cx="180" cy="420" r="4"/>
+    <circle cx="600" cy="180" r="4"/>
+    <circle cx="620" cy="230" r="4"/>
+    <circle cx="600" cy="370" r="4"/>
+    <circle cx="620" cy="420" r="4"/>
+  </g>
+  
+  <!-- Scan Line -->
+  <g class="scan-line" opacity="0.3">
+    <rect x="250" y="298" width="300" height="4" fill="url(#neonGreen)"/>
+  </g>
+  
+  <!-- Central Background Glow -->
+  <ellipse cx="400" cy="280" rx="150" ry="80" fill="#00ff88" opacity="0.05" filter="url(#strongGlow)"/>
+  
+  <!-- Main Title - IMApurbo -->
+  <g class="glitch-text" filter="url(#strongGlow)">
+    <!-- Shadow layers for depth -->
+    <text x="400" y="270" font-family="'Courier New', monospace" font-size="58" font-weight="bold" 
+          fill="#ff00ff" text-anchor="middle" opacity="0.3" transform="translate(3,3)">IMApurbo</text>
+    <text x="400" y="270" font-family="'Courier New', monospace" font-size="58" font-weight="bold" 
+          fill="#00ffff" text-anchor="middle" opacity="0.3" transform="translate(-2,-2)">IMApurbo</text>
+    <!-- Main text -->
+    <text x="400" y="270" font-family="'Courier New', monospace" font-size="58" font-weight="bold" 
+          fill="url(#neonGreen)" text-anchor="middle">IMApurbo</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="400" y="310" font-family="monospace" font-size="14" fill="#00d4ff" text-anchor="middle" 
+        filter="url(#glow)" class="pulse" letter-spacing="8">
+    [ SYSTEM INITIALIZED ]
+  </text>
+  
+  <!-- Terminal Text -->
+  <g font-family="monospace" font-size="11" fill="#00ff88" opacity="0.8" filter="url(#glow)">
+    <text x="400" y="360" text-anchor="middle" class="blink">&gt; Access Granted_</text>
+    <text x="400" y="380" text-anchor="middle" opacity="0.5">&gt; Loading modules...</text>
+  </g>
+  
+  <!-- Decorative Elements - Top -->
+  <g filter="url(#glow)">
+    <rect x="320" y="50" width="160" height="2" fill="url(#neonBlue)"/>
+    <polygon points="390,45 410,45 400,55" fill="#00d4ff"/>
+    <text x="400" y="42" font-family="monospace" font-size="10" fill="#00d4ff" text-anchor="middle">v2.0.24</text>
+  </g>
+  
+  <!-- Decorative Elements - Bottom -->
+  <g filter="url(#glow)">
+    <rect x="280" y="530" width="240" height="2" fill="url(#neonGreen)"/>
+    <rect x="300" y="540" width="200" height="1" fill="#00ff88" opacity="0.5"/>
+    <text x="400" y="560" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.7">
+      SECURE CONNECTION ESTABLISHED
+    </text>
+  </g>
+  
+  <!-- Corner Decorations -->
+  <g stroke="#00ff88" stroke-width="2" fill="none" filter="url(#glow)">
+    <!-- Top Left -->
+    <path d="M 20 60 L 20 20 L 60 20"/>
+    <path d="M 30 50 L 30 30 L 50 30"/>
+    <!-- Top Right -->
+    <path d="M 740 20 L 780 20 L 780 60"/>
+    <path d="M 750 30 L 770 30 L 770 50"/>
+    <!-- Bottom Left -->
+    <path d="M 20 540 L 20 580 L 60 580"/>
+    <path d="M 30 550 L 30 570 L 50 570"/>
+    <!-- Bottom Right -->
+    <path d="M 780 540 L 780 580 L 740 580"/>
+    <path d="M 770 550 L 770 570 L 750 570"/>
+  </g>
+  
+  <!-- Floating Particles -->
+  <g fill="#00ff88" filter="url(#glow)">
+    <circle cx="150" cy="250" r="2" class="particle" style="animation-delay: 0s"/>
+    <circle cx="650" cy="280" r="2" class="particle" style="animation-delay: 0.5s"/>
+    <circle cx="180" cy="350" r="1.5" class="particle" style="animation-delay: 1s"/>
+    <circle cx="620" cy="220" r="1.5" class="particle" style="animation-delay: 1.5s"/>
+    <circle cx="300" cy="150" r="2" class="particle" style="animation-delay: 0.3s"/>
+    <circle cx="500" cy="450" r="2" class="particle" style="animation-delay: 0.8s"/>
+  </g>
+  
+  <!-- Data Stream Indicators -->
+  <g font-family="monospace" font-size="9" fill="#00d4ff" opacity="0.6">
+    <text x="50" y="520">SYS:OK</text>
+    <text x="50" y="535">NET:ACTIVE</text>
+    <text x="50" y="550">ENC:AES-256</text>
+    <text x="700" y="520" text-anchor="end">CPU:12%</text>
+    <text x="700" y="535" text-anchor="end">MEM:4.2GB</text>
+    <text x="700" y="550" text-anchor="end">PING:12ms</text>
+  </g>
+  
+  <!-- Hex codes decoration -->
+  <g font-family="monospace" font-size="8" fill="#8800ff" opacity="0.4">
+    <text x="50" y="100">0x4F7A2B</text>
+    <text x="50" y="115">0xC3E8D1</text>
+    <text x="700" y="100" text-anchor="end">0xA1B2C3</text>
+    <text x="700" y="115" text-anchor="end">0xD4E5F6</text>
+  </g>
+  
+  <!-- Progress Bar -->
+  <g filter="url(#glow)">
+    <rect x="300" y="480" width="200" height="6" fill="none" stroke="#00ff88" stroke-width="1" rx="3"/>
+    <rect x="302" y="482" width="120" height="2" fill="url(#neonGreen)" rx="1">
+      <animate attributeName="width" values="0;196;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Status indicators -->
+  <g filter="url(#glow)">
+    <circle cx="360" cy="500" r="4" fill="#00ff88" class="pulse"/>
+    <text x="370" y="503" font-family="monospace" font-size="9" fill="#00ff88">ONLINE</text>
+    <circle cx="420" cy="500" r="4" fill="#00d4ff" class="pulse" style="animation-delay: 0.5s"/>
+    <text x="430" y="503" font-family="monospace" font-size="9" fill="#00d4ff">SECURE</text>
+  </g>
+
+  <!-- Binary Ring -->
+  <g font-family="monospace" font-size="8" fill="#00ff88" opacity="0.3" class="rotate" style="animation-duration: 60s;">
+    <text x="400" y="130" text-anchor="middle">01001001 01001101 01000001</text>
+    <text x="400" y="470" text-anchor="middle">01110000 01110101 01110010</text>
+  </g>
+  
+</svg>
