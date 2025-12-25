@@ -28,9 +28,9 @@ I'm a passionate developer focused on building innovative solutions and learning
 
 ## 🔥 Recent Projects
 
-- **[fckr]([link](https://pypi.org/project/fckr/))** - Brief description of what it does
-- **[Project Name 2](link)** - Brief description of what it does
-- **[Project Name 3](link)** - Brief description of what it does
+- **[fckr](https://pypi.org/project/fckr)** - The ultimate brute forcer
+- **[crawlerx](https://pypi.org/project/crawlerx)** - The ultimate web crawler
+- **[nlpchat](https://pypi.org/project/nlpchat)** - Easy ai chatbot builder
 
 
 ## 🤝 Connect with Me
