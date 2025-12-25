@@ -1,0 +1,223 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00ff41;#39ff14;#00ff41" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#39ff14;stop-opacity:1">
+        <animate attributeName="stop-color" values="#39ff14;#00ff41;#39ff14" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <radialGradient id="gridGlow">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#00ff41;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Dark tech background -->
+  <rect width="1200" height="400" fill="#0a0e27"/>
+  
+  <!-- Animated grid background -->
+  <g opacity="0.3">
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#00ff41" stroke-width="0.5">
+      <animate attributeName="y1" values="50;350;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="50;350;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#00ff41" stroke-width="0.5">
+      <animate attributeName="y1" values="150;50;150" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="150;50;150" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="#00ff41" stroke-width="0.5">
+      <animate attributeName="y1" values="250;100;250" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="250;100;250" dur="7s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="200" y1="0" x2="200" y2="400" stroke="#00ffff" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="x1" values="200;800;200" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="200;800;200" dur="10s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#00ffff" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="x1" values="600;300;600" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="600;300;600" dur="9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Floating particles -->
+  <g opacity="0.6">
+    <circle cx="100" cy="100" r="2" fill="#00ff41">
+      <animate attributeName="cy" values="100;300;100" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="200" r="1.5" fill="#39ff14">
+      <animate attributeName="cy" values="200;50;200" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="150" r="2" fill="#00ffff">
+      <animate attributeName="cy" values="150;350;150" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="250" r="1.5" fill="#00ff41">
+      <animate attributeName="cy" values="250;100;250" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="180" r="2" fill="#39ff14">
+      <animate attributeName="cy" values="180;320;180" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="220" r="1.5" fill="#00ffff">
+      <animate attributeName="cy" values="220;80;220" dur="7.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Binary code rain -->
+  <g opacity="0.2" font-family="monospace" font-size="12" fill="#00ff41">
+    <text x="50" y="0">01101001
+      <animate attributeName="y" values="0;400" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="250" y="-100">11010110
+      <animate attributeName="y" values="-100;400" dur="10s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="-50">10101010
+      <animate attributeName="y" values="-50;400" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="650" y="-150">01110011
+      <animate attributeName="y" values="-150;400" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <text x="850" y="-80">11001100
+      <animate attributeName="y" values="-80;400" dur="9.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="1050" y="-120">00110011
+      <animate attributeName="y" values="-120;400" dur="10.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Hexagon grid decorations -->
+  <g stroke="#00ffff" stroke-width="1" fill="none" opacity="0.3">
+    <polygon points="50,50 70,62 70,86 50,98 30,86 30,62" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="1150,320 1170,332 1170,356 1150,368 1130,356 1130,332" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Terminal-style cursor -->
+  <rect x="920" y="180" width="15" height="60" fill="#00ff41" opacity="0.8">
+    <animate attributeName="opacity" values="0;0.8;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Main text: IMApurbo with hacker style -->
+  <text x="600" y="220" font-family="'Share Tech Mono', 'Consolas', 'Courier New', monospace" 
+        font-size="100" font-weight="900" text-anchor="middle" 
+        fill="none" stroke="url(#neonGreen)" stroke-width="2" filter="url(#strongGlow)">
+    &gt; IMApurbo_
+  </text>
+  
+  <text x="600" y="220" font-family="'Share Tech Mono', 'Consolas', 'Courier New', monospace" 
+        font-size="100" font-weight="900" text-anchor="middle" 
+        fill="url(#neonGreen)" opacity="0.9">
+    &gt; IMApurbo_
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Glitch effect overlay with more aggressive distortion -->
+  <text x="602" y="219" font-family="'Share Tech Mono', 'Consolas', 'Courier New', monospace" 
+        font-size="100" font-weight="900" text-anchor="middle" fill="#ff0055" opacity="0">
+    &gt; IMApurbo_
+    <animate attributeName="x" values="602;598;605;599;602" dur="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0;0.3;0" dur="0.15s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="598" y="221" font-family="'Share Tech Mono', 'Consolas', 'Courier New', monospace" 
+        font-size="100" font-weight="900" text-anchor="middle" fill="#00ffff" opacity="0">
+    &gt; IMApurbo_
+    <animate attributeName="x" values="598;603;596;601;598" dur="0.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0;0.2;0" dur="0.2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Scan line effect across text -->
+  <rect x="0" y="180" width="1200" height="3" fill="url(#neonCyan)" opacity="0.4">
+    <animate attributeName="y" values="180;240;180" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Scanning line effect -->
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="url(#neonCyan)" stroke-width="2" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="y1" values="150;250;150" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="150;250;150" dur="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Subtitle text -->
+  <text x="600" y="280" font-family="'Courier New', monospace" font-size="18" 
+        text-anchor="middle" fill="#00ffff" filter="url(#glow)" letter-spacing="4">
+    &lt; CYBER_DEVELOPER /&gt;
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Corner brackets decoration -->
+  <g stroke="#00ff41" stroke-width="3" fill="none" filter="url(#glow)">
+    <path d="M 100,100 L 100,120 L 120,120">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1100,100 L 1100,120 L 1080,120">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <path d="M 100,300 L 100,280 L 120,280">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </path>
+    <path d="M 1100,300 L 1100,280 L 1080,280">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </path>
+  </g>
+  
+  <!-- Tech border lines -->
+  <g stroke="#00ff41" stroke-width="1" opacity="0.4">
+    <line x1="150" y1="150" x2="350" y2="150">
+      <animate attributeName="x2" values="150;350;150" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="850" y1="150" x2="1050" y2="150">
+      <animate attributeName="x1" values="1050;850;1050" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="150" y1="250" x2="350" y2="250">
+      <animate attributeName="x2" values="150;350;150" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <line x1="850" y1="250" x2="1050" y2="250">
+      <animate attributeName="x1" values="1050;850;1050" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+  </g>
+  
+  <!-- Random data streams -->
+  <g font-family="monospace" font-size="10" fill="#00ff41" opacity="0.3">
+    <text x="80" y="350">
+      [INIT] System_Online...
+      <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="900" y="80">
+      [DATA] Encrypted_Stream
+      <animate attributeName="opacity" values="0;0.5;0" dur="5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
