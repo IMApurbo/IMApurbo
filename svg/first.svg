@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffff"/>
+      <stop offset="50%" style="stop-color:#00ff88"/>
+      <stop offset="100%" style="stop-color:#00ffff"/>
+    </linearGradient>
+    
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00ff"/>
+      <stop offset="50%" style="stop-color:#8800ff"/>
+      <stop offset="100%" style="stop-color:#ff00ff"/>
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#ff00ff;#00ff00;#00ffff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#00ff88">
+        <animate attributeName="stop-color" values="#00ff88;#00ffff;#ff00ff;#00ff88" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#00ff00;#00ffff;#ff00ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Glow Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glitch">
+      <feOffset in="SourceGraphic" dx="2" dy="0" result="red">
+        <animate attributeName="dx" values="2;-2;2;0;2" dur="0.2s" repeatCount="indefinite"/>
+      </feOffset>
+      <feOffset in="SourceGraphic" dx="-2" dy="0" result="blue">
+        <animate attributeName="dx" values="-2;2;-2;0;-2" dur="0.2s" repeatCount="indefinite"/>
+      </feOffset>
+    </filter>
+    
+    <!-- Patterns -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ffff" stroke-width="0.3" opacity="0.2"/>
+    </pattern>
+    
+    <pattern id="hexPattern" width="60" height="52" patternUnits="userSpaceOnUse">
+      <polygon points="30,0 60,15 60,37 30,52 0,37 0,15" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+    
+    <!-- Clip paths -->
+    <clipPath id="screenClip">
+      <rect x="50" y="50" width="700" height="400" rx="10"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <rect width="800" height="500" fill="url(#hexPattern)"/>
+  
+  <!-- Animated scan line -->
+  <rect x="0" y="0" width="800" height="3" fill="url(#neonCyan)" opacity="0.3">
+    <animate attributeName="y" values="0;500;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Matrix rain effect -->
+  <g font-family="monospace" font-size="12" fill="#00ff00" opacity="0.4">
+    <text x="50" y="0">
+      <animate attributeName="y" values="-20;520" dur="3s" repeatCount="indefinite"/>
+      01001010
+    </text>
+    <text x="120" y="0">
+      <animate attributeName="y" values="-50;520" dur="2.5s" repeatCount="indefinite"/>
+      10110101
+    </text>
+    <text x="190" y="0">
+      <animate attributeName="y" values="-80;520" dur="4s" repeatCount="indefinite"/>
+      01101001
+    </text>
+    <text x="260" y="0">
+      <animate attributeName="y" values="-30;520" dur="3.5s" repeatCount="indefinite"/>
+      11010010
+    </text>
+    <text x="330" y="0">
+      <animate attributeName="y" values="-100;520" dur="2.8s" repeatCount="indefinite"/>
+      00101101
+    </text>
+    <text x="400" y="0">
+      <animate attributeName="y" values="-60;520" dur="3.2s" repeatCount="indefinite"/>
+      10010110
+    </text>
+    <text x="470" y="0">
+      <animate attributeName="y" values="-40;520" dur="4.2s" repeatCount="indefinite"/>
+      01101010
+    </text>
+    <text x="540" y="0">
+      <animate attributeName="y" values="-90;520" dur="2.6s" repeatCount="indefinite"/>
+      11001101
+    </text>
+    <text x="610" y="0">
+      <animate attributeName="y" values="-20;520" dur="3.8s" repeatCount="indefinite"/>
+      00110110
+    </text>
+    <text x="680" y="0">
+      <animate attributeName="y" values="-70;520" dur="3.3s" repeatCount="indefinite"/>
+      10101001
+    </text>
+    <text x="750" y="0">
+      <animate attributeName="y" values="-45;520" dur="2.9s" repeatCount="indefinite"/>
+      01010110
+    </text>
+  </g>
+  
+  <!-- Circuit lines -->
+  <g stroke="#00ffff" stroke-width="1" fill="none" opacity="0.5" filter="url(#glow)">
+    <!-- Left circuits -->
+    <path d="M0,250 L100,250 L120,230 L180,230">
+      <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,280 L80,280 L100,300 L150,300 L170,280 L200,280">
+      <animate attributeName="stroke-dasharray" values="0,350;350,0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,220 L60,220 L80,200 L120,200">
+      <animate attributeName="stroke-dasharray" values="0,200;200,0" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Right circuits -->
+    <path d="M800,250 L700,250 L680,270 L620,270">
+      <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M800,220 L720,220 L700,200 L650,200 L630,220 L600,220">
+      <animate attributeName="stroke-dasharray" values="0,350;350,0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M800,280 L740,280 L720,300 L680,300">
+      <animate attributeName="stroke-dasharray" values="0,200;200,0" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Top circuits -->
+    <path d="M400,0 L400,60 L380,80 L380,120">
+      <animate attributeName="stroke-dasharray" values="0,200;200,0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M350,0 L350,40 L330,60 L330,100">
+      <animate attributeName="stroke-dasharray" values="0,180;180,0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M450,0 L450,50 L470,70 L470,110">
+      <animate attributeName="stroke-dasharray" values="0,190;190,0" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Circuit nodes -->
+  <g fill="#00ffff" filter="url(#glow)">
+    <circle cx="180" cy="230" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="280" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="200" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="270" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="220" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="300" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Hexagonal frame -->
+  <polygon points="400,80 550,130 550,320 400,370 250,320 250,130" 
+           fill="none" stroke="url(#neonCyan)" stroke-width="2" filter="url(#glow)" opacity="0.6">
+    <animate attributeName="stroke-dasharray" values="0,1500;1500,0" dur="3s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="3s"/>
+  </polygon>
+  
+  <!-- Inner hexagon -->
+  <polygon points="400,100 530,145 530,305 400,350 270,305 270,145" 
+           fill="none" stroke="url(#neonPurple)" stroke-width="1" filter="url(#glow)" opacity="0.4">
+    <animate attributeName="stroke-dasharray" values="0,1400;1400,0" dur="3s" fill="freeze"/>
+  </polygon>
+  
+  <!-- Central container -->
+  <rect x="260" y="180" width="280" height="120" rx="5" 
+        fill="#0a0a0f" fill-opacity="0.8" stroke="url(#neonCyan)" stroke-width="1" filter="url(#glow)"/>
+  
+  <!-- Decorative corners -->
+  <g stroke="#00ff88" stroke-width="2" fill="none" filter="url(#glow)">
+    <path d="M260,195 L260,180 L275,180"/>
+    <path d="M540,195 L540,180 L525,180"/>
+    <path d="M260,285 L260,300 L275,300"/>
+    <path d="M540,285 L540,300 L525,300"/>
+  </g>
+  
+  <!-- Main text: IMApurbo -->
+  <text x="400" y="255" text-anchor="middle" font-family="'Courier New', monospace" 
+        font-size="52" font-weight="bold" fill="url(#textGrad)" filter="url(#strongGlow)">
+    IMApurbo
+    <animate attributeName="opacity" values="1;0.8;1" dur="0.1s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Glitch effect layers -->
+  <text x="402" y="255" text-anchor="middle" font-family="'Courier New', monospace" 
+        font-size="52" font-weight="bold" fill="#ff0000" opacity="0.3">
+    <animate attributeName="x" values="402;398;402;400;402" dur="0.3s" repeatCount="indefinite"/>
+    IMApurbo
+  </text>
+  <text x="398" y="255" text-anchor="middle" font-family="'Courier New', monospace" 
+        font-size="52" font-weight="bold" fill="#0000ff" opacity="0.3">
+    <animate attributeName="x" values="398;402;398;400;398" dur="0.3s" repeatCount="indefinite"/>
+    IMApurbo
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="290" text-anchor="middle" font-family="'Courier New', monospace" 
+        font-size="12" fill="#00ff88" filter="url(#glow)" opacity="0.8">
+    [ SYSTEM.ACCESS.GRANTED ]
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Top decorations -->
+  <g font-family="monospace" font-size="10" fill="#00ffff" opacity="0.6">
+    <text x="270" y="175">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="0.5s" repeatCount="indefinite"/>
+      ► INITIALIZING...
+    </text>
+    <text x="450" y="175">
+      STATUS: <tspan fill="#00ff00">ONLINE</tspan>
+    </text>
+  </g>
+  
+  <!-- Animated brackets -->
+  <g font-family="monospace" font-size="60" fill="#ff00ff" filter="url(#glow)" opacity="0.8">
+    <text x="210" y="265">
+      <animate attributeName="x" values="210;200;210" dur="1s" repeatCount="indefinite"/>
+      [
+    </text>
+    <text x="555" y="265">
+      <animate attributeName="x" values="555;565;555" dur="1s" repeatCount="indefinite"/>
+      ]
+    </text>
+  </g>
+  
+  <!-- Rotating elements -->
+  <g transform="translate(150,250)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.5"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="#00ffff" filter="url(#glow)">
+      <circle cx="0" cy="-30" r="3">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g fill="#ff00ff" filter="url(#glow)">
+      <circle cx="0" cy="-25" r="2">
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <g transform="translate(650,250)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.5"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="#00ffff" filter="url(#glow)">
+      <circle cx="0" cy="-30" r="3">
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g fill="#ff00ff" filter="url(#glow)">
+      <circle cx="0" cy="-25" r="2">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Data streams -->
+  <g font-family="monospace" font-size="8" fill="#00ff00" opacity="0.5">
+    <text x="60" y="400">
+      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="0.3s" repeatCount="indefinite"/>
+      0x7F3A9B2C 0xE4D1F8A0 0x2B6C9E5D
+    </text>
+    <text x="60" y="415">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="0.4s" repeatCount="indefinite"/>
+      0x8C1D4E7F 0x5A2B3C4D 0xF9E8D7C6
+    </text>
+    <text x="520" y="400">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="0.35s" repeatCount="indefinite"/>
+      ENCRYPT::AES256::ENABLED
+    </text>
+    <text x="520" y="415">
+      <animate attributeName="opacity" values="0.6;0.3;0.6" dur="0.45s" repeatCount="indefinite"/>
+      FIREWALL::STATUS::ACTIVE
+    </text>
+  </g>
+  
+  <!-- Terminal-style text at bottom -->
+  <g font-family="monospace" font-size="11" fill="#00ff88">
+    <text x="80" y="460">
+      <animate attributeName="opacity" values="1;0;1" dur="0.5s" repeatCount="indefinite"/>
+      _
+    </text>
+    <text x="90" y="460">root@IMApurbo:~$ ./execute_protocol --stealth --mode=shadow</text>
+  </g>
+  
+  <!-- Progress bar -->
+  <rect x="80" y="470" width="300" height="4" fill="#1a1a2e" rx="2"/>
+  <rect x="80" y="470" width="0" height="4" fill="url(#neonCyan)" rx="2" filter="url(#glow)">
+    <animate attributeName="width" values="0;300;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Connection nodes -->
+  <g fill="none" stroke-width="1.5">
+    <circle cx="80" cy="80" r="15" stroke="#ff00ff" filter="url(#glow)">
+      <animate attributeName="r" values="15;18;15" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="80" r="15" stroke="#00ffff" filter="url(#glow)">
+      <animate attributeName="r" values="15;18;15" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="420" r="15" stroke="#00ff00" filter="url(#glow)">
+      <animate attributeName="r" values="15;18;15" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="420" r="15" stroke="#ff0088" filter="url(#glow)">
+      <animate attributeName="r" values="15;18;15" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Connection lines -->
+  <g stroke="#00ffff" stroke-width="0.5" opacity="0.3">
+    <line x1="95" y1="80" x2="250" y2="130">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="705" y1="80" x2="550" y2="130">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="95" y1="420" x2="250" y2="320">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="705" y1="420" x2="550" y2="320">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Particles -->
+  <g fill="#00ffff" filter="url(#glow)">
+    <circle cx="0" cy="250" r="2" opacity="0.8">
+      <animate attributeName="cx" values="0;800" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="200" r="1.5" opacity="0.6">
+      <animate attributeName="cx" values="0;800" dur="4s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="0" cy="300" r="2" opacity="0.7">
+      <animate attributeName="cx" values="0;800" dur="6s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+  
+  <!-- Version info -->
+  <text x="700" y="485" font-family="monospace" font-size="9" fill="#444" text-anchor="end">
+    v2.0.24 | SECURE
+  </text>
+  
+  <!-- Skull icon (hacker vibe) -->
+  <g transform="translate(400, 380)" fill="none" stroke="#ff00ff" stroke-width="1.5" filter="url(#glow)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="15" ry="18"/>
+    <circle cx="-6" cy="-3" r="4"/>
+    <circle cx="6" cy="-3" r="4"/>
+    <path d="M-4,8 L4,8"/>
+    <path d="M-2,8 L-2,12"/>
+    <path d="M2,8 L2,12"/>
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="2s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Lock icon -->
+  <g transform="translate(400, 130)" fill="none" stroke="#00ff00" stroke-width="1.5" filter="url(#glow)">
+    <rect x="-10" y="-5" width="20" height="15" rx="2"/>
+    <path d="M-6,-5 L-6,-10 A6,6 0 0,1 6,-10 L6,-5"/>
+    <circle cx="0" cy="3" r="2" fill="#00ff00"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+  </g>
+</svg>
