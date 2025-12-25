@@ -75,5 +75,13 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 
 ---
 <div align="center">
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi there, I'm IMApurbo 👋 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+
+  <img src="https://github.com/IMApurbo/IMApurbo/blob/main/svg/fifth.svg" alt="IMApurbo Elite Hacker Banner" width="100%"/>
+
+  <!-- Optional: Keep your typing SVG below if you want subtitles -->
+  <!-- <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=599200&center=true&vCenter=true&width=700&lines=Python+Developer+%7C+Automation+Master;Security+Tools+%26+AI+Enthusiast;Pushing+boundaries+with+code+%F0%9F%94%A5" alt="Typing SVG" /> -->
+</div>
+<div align="center">
   ⭐️ From <strong>IMApurbo</strong> — Code with passion, hack with responsibility 🚀
 </div>
