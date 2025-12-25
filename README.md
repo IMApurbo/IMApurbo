@@ -3,7 +3,7 @@
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi there, I'm IMApurbo 👋 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F74C4C&center=true&vCenter=true&width=600&lines=Python+Developer+%7C+Automation+Enthusiast;Security+Tools+%26+AI+Lover;Building+things+that+push+boundaries" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=599200&center=true&vCenter=true&width=700&lines=Python+Developer+%7C+Automation+Master;Security+Tools+%26+AI+Enthusiast;Pushing+boundaries+with+code+%F0%9F%94%A5" alt="Typing SVG" />
 </div>
 
 </div>
@@ -31,24 +31,24 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
   <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
 
-## 📊 GitHub Stats (Fixed & Working)
+## 📊 GitHub Stats (Self-Hosted & Reliable)
 
 <p align="center">
-  <img src="https://stats.quira.sh/IMApurbo?theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-trinibs-projects.vercel.app/api?username=IMApurbo&show_icons=true&theme=merko&border_color=599200" alt="IMApurbo's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://stats.quira.sh/IMApurbo/top-langs?theme=radical&hide_border=true&layout=compact" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com?user=IMApurbo&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-trinibs-projects.vercel.app/api/top-langs/?username=IMApurbo&layout=compact&theme=merko&border_color=599200" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats-trinibs-projects.vercel.app/?user=IMApurbo&theme=merko&border=599200" alt="GitHub Streak" />
 </p>
 
 ## 🔥 Featured Projects
 
-| Project | Description | Link |
-|-------|-----------|------|
-| **fckr** | High-performance brute-force tool for security research & testing | [![PyPI](https://img.shields.io/pypi/v/fckr?color=red&style=for-the-badge)](https://pypi.org/project/fckr) |
-| **crawlerx** | Advanced web crawling framework for data extraction & automation | [![PyPI](https://img.shields.io/pypi/v/crawlerx?color=purple&style=for-the-badge)](https://pypi.org/project/crawlerx) |
-| **nlpchat** | Easy-to-use AI chatbot builder with natural language processing | [![PyPI](https://img.shields.io/pypi/v/nlpchat?color=blue&style=for-the-badge)](https://pypi.org/project/nlpchat) |
+| Project     | Description                                              | Link                                                                 |
+|-------------|----------------------------------------------------------|----------------------------------------------------------------------|
+| **fckr**    | High-performance brute-force tool for security research  | [![PyPI](https://img.shields.io/pypi/v/fckr?color=599200&style=for-the-badge)](https://pypi.org/project/fckr) |
+| **crawlerx**| Advanced web crawling framework for data extraction      | [![PyPI](https://img.shields.io/pypi/v/crawlerx?color=599200&style=for-the-badge)](https://pypi.org/project/crawlerx) |
+| **nlpchat** | Easy-to-use AI chatbot builder with NLP                   | [![PyPI](https://img.shields.io/pypi/v/nlpchat?color=599200&style=for-the-badge)](https://pypi.org/project/nlpchat) |
 
 > **Pro Tip**: Always use these tools **responsibly** and **ethically** — only on systems you own or have explicit permission to test! 🛡️
 
@@ -70,7 +70,7 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=IMApurbo&label=Profile%20Views&color=red&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=IMApurbo&label=Profile%20Views&color=599200&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
