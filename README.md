@@ -1,5 +1,4 @@
 <div align="center">
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
   <img src="https://github.com/IMApurbo/IMApurbo/blob/main/svg/third.svg" alt="IMApurbo Elite Hacker Banner" width="100%"/>
 
@@ -25,7 +24,7 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 - 🌱 Mastering advanced NLP, machine learning & ethical hacking  
 - 👯 Open to collaborate on Python automation, web scraping, or security projects  
 - 💬 Ask me about **Python, Automation, Web Scraping, AI Chatbots, Brute-Forcers**  
-- 📫 Reach me: **[imapurbo@example.com](mailto:imapurbo@example.com)** *(replace with real email)*  
+- 📫 Reach me: **[imapurbo@example.com](mailto:imapurbo@example.com)**  
 - ⚡ **Fun fact**: My scripts run faster than I can finish my coffee ☕🚀
 
 ## 🛠️ Tech Stack & Tools
@@ -63,6 +62,13 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 > **Pro Tip**: Always use these tools **responsibly** and **ethically** — only on systems you own or have explicit permission to test! 🛡️
 
 ## 🤝 Connect With Me
+<div align="center">
+
+  <img src="https://github.com/IMApurbo/IMApurbo/blob/main/svg/second.svg" alt="IMApurbo Elite Hacker Banner" width="100%"/>
+
+  <!-- Optional: Keep your typing SVG below if you want subtitles -->
+  <!-- <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=599200&center=true&vCenter=true&width=700&lines=Python+Developer+%7C+Automation+Master;Security+Tools+%26+AI+Enthusiast;Pushing+boundaries+with+code+%F0%9F%94%A5" alt="Typing SVG" /> -->
+</div>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/your-profile">
@@ -85,7 +91,6 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 
 ---
 <div align="center">
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
   <img src="https://github.com/IMApurbo/IMApurbo/blob/main/svg/fifth.svg" alt="IMApurbo Elite Hacker Banner" width="100%"/>
 
