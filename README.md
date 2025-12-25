@@ -1,69 +1,79 @@
-## Hey, Geek 😎
+<div align="center">
+
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi there, I'm IMApurbo 👋 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F74C4C&center=true&vCenter=true&width=600&lines=Python+Developer+%7C+Automation+Enthusiast;Security+Tools+%26+AI+Lover;Building+things+that+push+boundaries" alt="Typing SVG" />
+</div>
+
+</div>
+
+## About Me 🔥
+I'm a passionate **Python developer** obsessed with automation, web tools, AI, and ethical security research. I love crafting powerful scripts that solve real problems and exploring the darker (but legal) corners of tech.
+
+- 🔭 Currently building advanced automation & pentesting tools  
+- 🌱 Mastering advanced NLP, machine learning & ethical hacking  
+- 👯 Open to collaborate on Python automation, web scraping, or security projects  
+- 💬 Ask me about **Python, Automation, Web Scraping, AI Chatbots, Brute-Forcers**  
+- 📫 Reach me: **[imapurbo@example.com](mailto:imapurbo@example.com)** *(replace with real email)*  
+- ⚡ **Fun fact**: My scripts run faster than I can finish my coffee ☕🚀
+
+## 🛠️ Tech Stack & Tools
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/49580304/110319833-47367180-7fc4-11eb-87a7-392509eca9d7.gif" alt="Hacking vibe">
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+</p>
+
+## 📊 GitHub Stats (Fixed & Working)
+
+<p align="center">
+  <img src="https://stats.quira.sh/IMApurbo?theme=radical&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/49580304/110318584-81067880-7fc2-11eb-8391-152d308e7f2b.gif" alt="Cool animation">
+  <img src="https://stats.quira.sh/IMApurbo/top-langs?theme=radical&hide_border=true&layout=compact" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com?user=IMApurbo&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<p align="center">
-  <a href="https://rebrand.ly/noobhacktube">
-    <img title="Noob Hackers" src="https://user-images.githubusercontent.com/49580304/117566137-7a83a280-b0d2-11eb-8153-91e45df98ca8.gif">
-  </a>
-</p>
+## 🔥 Featured Projects
 
-### KNOW MORE ABOUT ME >>>>
+| Project | Description | Link |
+|-------|-----------|------|
+| **fckr** | High-performance brute-force tool for security research & testing | [![PyPI](https://img.shields.io/pypi/v/fckr?color=red&style=for-the-badge)](https://pypi.org/project/fckr) |
+| **crawlerx** | Advanced web crawling framework for data extraction & automation | [![PyPI](https://img.shields.io/pypi/v/crawlerx?color=purple&style=for-the-badge)](https://pypi.org/project/crawlerx) |
+| **nlpchat** | Easy-to-use AI chatbot builder with natural language processing | [![PyPI](https://img.shields.io/pypi/v/nlpchat?color=blue&style=for-the-badge)](https://pypi.org/project/nlpchat) |
 
-<p align="center">
-  <img title="Noob Hackers Stats" src="https://stats.quira.sh/noob-hackers?theme=radical">
-</p>
+> **Pro Tip**: Always use these tools **responsibly** and **ethically** — only on systems you own or have explicit permission to test! 🛡️
 
-<p align="center">
-  <a href="https://rebrand.ly/githubprof">
-    <img title="GitHub Profile" src="https://img.shields.io/badge/noob--hackers-brightgreen?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://rebrand.ly/noobhackers">
-    <img title="YouTube" src="https://img.shields.io/badge/YouTube-Noob%20Hackers-red?style=for-the-badge&logo=Youtube">
-  </a>
-  <a href="https://rebrand.ly/telegramchnl">
-    <img title="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
-  </a>
-  <a href="https://rebrand.ly/hckrgroups">
-    <img title="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
-  </a>
-  <a href="https://rebrand.ly/insgrm">
-    <img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
-</p>
-
-### 🔥 Featured Tools & Projects
+## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://github.com/noob-hackers/grabcam">
-    <img title="grabcam" src="https://stats.quira.sh/noob-hackers/pin?repo=grabcam&theme=radical">
+  <a href="https://www.linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/noob-hackers/mrphish">
-    <img title="mrphish" src="https://stats.quira.sh/noob-hackers/pin?repo=mrphish&theme=radical">
+  <a href="https://twitter.com/your-handle">
+    <img src="https://img.shields.io/badge/-Twitter/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  <a href="https://your-portfolio.com">
+    <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=react&logoColor=white" />
+  </a>
+  <a href="mailto:your-real-email@example.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/noob-hackers/kalimux">
-    <img title="kalimux" src="https://stats.quira.sh/noob-hackers/pin?repo=kalimux&theme=radical">
-  </a>
-  <a href="https://github.com/noob-hackers/ipdrone">
-    <img title="ipdrone" src="https://stats.quira.sh/noob-hackers/pin?repo=ipdrone&theme=radical">
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=IMApurbo&label=Profile%20Views&color=red&style=for-the-badge" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img title="Top Languages" src="https://stats.quira.sh/noob-hackers/top-langs?theme=radical&layout=compact">
-</p>
-
-<p align="center">
-  <img title="Contribution Streak" src="https://streak-stats.demolab.com?user=noob-hackers&theme=radical&hide_border=true">
-</p>
-
-**Note:** Use these tools responsibly and only for educational purposes or on devices/systems you own or have permission to test. Stay ethical! 🛡️
+---
+<div align="center">
+  ⭐️ From <strong>IMApurbo</strong> — Code with passion, hack with responsibility 🚀
+</div>
