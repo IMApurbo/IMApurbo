@@ -24,7 +24,7 @@ I'm a passionate **Python developer** obsessed with automation, web tools, AI, a
 - 🌱 Mastering advanced NLP, machine learning & ethical hacking  
 - 👯 Open to collaborate on Python automation, web scraping, or security projects  
 - 💬 Ask me about **Python, Automation, Web Scraping, AI Chatbots, Brute-Forcers**  
-- 📫 Reach me: **[imapurbo@example.com](mailto:imapurbo@example.com)**  
+- 📫 Reach me: **[imapurbo@example.com](mailto:imapurbo@proton.me)**  
 - ⚡ **Fun fact**: My scripts run faster than I can finish my coffee ☕🚀
 
 ## 🛠️ Tech Stack & Tools
