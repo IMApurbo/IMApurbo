@@ -1,149 +1,138 @@
-<!-- ████████████████████████████████████████████████████████████████████
-     COMMIT YOUR assets/ FOLDER TO THE ROOT OF YOUR PROFILE REPO
-     Repo structure:  IMApurbo/IMApurbo/
-     ├── README.md
-     └── assets/
-         ├── banner.svg
-         ├── terminal.svg
-         └── skills.svg
-     ████████████████████████████████████████████████████████████████████ -->
-
 <div align="center">
 
-<!-- ══════════════════════════════════════════════════════════════
-     ANIMATED WAVE HEADER  — fadeIn + text animation via capsule
-     ══════════════════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E0A,50:1a3300,100:599200&height=220&section=header&text=IMApurbo&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Ethical%20Hacker%20%7C%20Security%20Researcher%20%7C%20Python%20Wizard&descAlignY=58&descSize=18&descColor=8ACC00" width="100%" alt="Animated Wave Header"/>
+<!-- ═══════════════════════════════════════════════════════
+     ANIMATED WAVE HEADER — fadeIn via capsule-render CDN
+     ═══════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E0A,50:1a3300,100:599200&height=220&section=header&text=IMApurbo&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Ethical%20Hacker%20%7C%20Security%20Researcher%20%7C%20Python%20Wizard&descAlignY=58&descSize=18&descColor=8ACC00" width="100%" alt="Header"/>
 
 <br/>
 
-<!-- ══════════════════════════════════════════
-     ANIMATED BANNER  (CSS keyframes in SVG)
-     ══════════════════════════════════════════ -->
-<img src="assets/banner.svg" width="100%" alt="IMApurbo — Hacker Terminal Banner"/>
-
-<br/>
-
-<!-- Animated typing headline — hacker themed -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=800&color=599200&background=0A0E0A00&center=true&vCenter=true&width=860&lines=%5BROOT%40IMAPURBO%5D+%24+./init_sequence.sh;%E2%96%88+ETHICAL+HACKER+%7C+SECURITY+RESEARCHER+%7C+PYTHON+WIZARD;%E2%96%88+Building+tools+that+break+%26+build+systems;%E2%96%88+Brute-forcing+bugs+so+you+don't+have+to+%F0%9F%9B%A1%EF%B8%8F;%E2%96%88+OSINT+%7C+Web+Scraping+%7C+NLP+%7C+Automation;%5BSESSION+ACTIVE%5D+All+systems+nominal+%E2%9C%85" alt="Typing SVG"/>
+<!-- ═══════════════════════════════════════════════════════
+     ANIMATED TYPING SVG — hacker phrases, Share Tech Mono
+     ═══════════════════════════════════════════════════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&pause=800&color=599200&background=0A0E0A00&center=true&vCenter=true&width=860&lines=%5BROOT%40IMAPURBO%5D+%24+./init_sequence.sh;%E2%96%88+ETHICAL+HACKER+%7C+SECURITY+RESEARCHER+%7C+PYTHON+WIZARD;%E2%96%88+Building+tools+that+break+%26+secure+systems;%E2%96%88+Brute-forcing+bugs+so+you+don%27t+have+to+%F0%9F%9B%A1%EF%B8%8F;%E2%96%88+OSINT+%7C+Web+Scraping+%7C+NLP+%7C+Automation;%5BSESSION+ACTIVE%5D+All+systems+nominal+%E2%9C%85" alt="Typing SVG"/>
 
 <br/><br/>
 
+<!-- Live badges -->
+<img src="https://img.shields.io/badge/STATUS-ONLINE-599200?style=for-the-badge&logo=statuspage&logoColor=black"/>
+<img src="https://img.shields.io/badge/BOUNTIES-HUNTING-red?style=for-the-badge&logo=hackerone&logoColor=white"/>
+<img src="https://img.shields.io/badge/COFFEE-CRITICAL-FFD700?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
 <img src="https://komarev.com/ghpvc/?username=IMApurbo&label=PROFILE+SCANS&color=599200&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/%24-whoami-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`whoami`
+## `$ whoami`
 
 <table>
   <tr>
-    <td valign="top" width="55%">
+    <td valign="top" width="100%">
       <p>
         I operate at the intersection of <strong>offensive security</strong>, <strong>Python automation</strong>,
         and <strong>AI research</strong>. I don't just write code — I weaponize it (ethically 🛡️).
       </p>
       <ul>
         <li>🔴 <strong>Ethical hacker</strong> — CVEs, bug bounties, responsible disclosure</li>
-        <li>🐍 <strong>Python architect</strong> — automation tools, bots, scrapers, exploits</li>
+        <li>🐍 <strong>Python architect</strong> — automation tools, bots, scrapers, exploit frameworks</li>
         <li>🧠 <strong>AI / NLP engineer</strong> — chatbots, classifiers, NLP pipelines</li>
         <li>🌐 <strong>OSINT specialist</strong> — recon frameworks &amp; intelligence gathering</li>
         <li>📦 Published on <strong>PyPI</strong> — <code>fckr</code>, <code>crawlerx</code>, <code>nlpchat</code></li>
         <li>📫 <a href="mailto:imapurbo@proton.me"><strong>imapurbo@proton.me</strong></a> — PGP encrypted preferred</li>
         <li>⚡ <em>Fun fact</em>: I've read more RFCs than novels ☕</li>
       </ul>
-      <br/>
-      <!-- Animated status badges -->
-      <img src="https://img.shields.io/badge/STATUS-ONLINE-599200?style=for-the-badge&logo=statuspage&logoColor=black"/>
-      <img src="https://img.shields.io/badge/BOUNTIES-HUNTING-red?style=for-the-badge&logo=hackerone&logoColor=white"/>
-      <img src="https://img.shields.io/badge/COFFEE-CRITICAL-FFD700?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
-    </td>
-    <td valign="top" width="45%" align="center">
-      <!-- Animated terminal SVG -->
-      <img src="assets/terminal.svg" width="100%" alt="Hacker Terminal"/>
     </td>
   </tr>
 </table>
 
 ---
 
-## <img src="https://img.shields.io/badge/%24-skill__matrix-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`cat /etc/skill_matrix.conf`
-
-<table>
-  <tr>
-    <td valign="top" width="50%" align="center">
-      <!-- Animated skill bar SVG -->
-      <img src="assets/skills.svg" width="100%" alt="Skill Matrix"/>
-    </td>
-    <td valign="top" width="50%">
-      <br/>
-      <h4>🔴 Offensive Security</h4>
-      <img src="https://img.shields.io/badge/-Kali_Linux-599200?style=flat-square&logo=kalilinux&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Metasploit-599200?style=flat-square&logo=metasploit&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Burp_Suite-599200?style=flat-square&logo=burpsuite&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Nmap-599200?style=flat-square&logo=nmap&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Wireshark-599200?style=flat-square&logo=wireshark&logoColor=black"/>
-      <br/><br/>
-      <h4>🐍 Languages &amp; Frameworks</h4>
-      <img src="https://img.shields.io/badge/-Python-599200?style=flat-square&logo=python&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Bash-599200?style=flat-square&logo=gnubash&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-JavaScript-599200?style=flat-square&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-C-599200?style=flat-square&logo=c&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-FastAPI-599200?style=flat-square&logo=fastapi&logoColor=black"/>
-      <br/><br/>
-      <h4>🧠 AI / ML Stack</h4>
-      <img src="https://img.shields.io/badge/-TensorFlow-599200?style=flat-square&logo=tensorflow&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-PyTorch-599200?style=flat-square&logo=pytorch&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-HuggingFace-599200?style=flat-square&logo=huggingface&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-OpenCV-599200?style=flat-square&logo=opencv&logoColor=black"/>
-      <br/><br/>
-      <h4>🛠️ Tools &amp; Infra</h4>
-      <img src="https://img.shields.io/badge/-Docker-599200?style=flat-square&logo=docker&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Linux-599200?style=flat-square&logo=linux&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Git-599200?style=flat-square&logo=git&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-VS_Code-599200?style=flat-square&logo=visualstudiocode&logoColor=black"/>
-      <img src="https://img.shields.io/badge/-Tor-599200?style=flat-square&logo=torproject&logoColor=black"/>
-    </td>
-  </tr>
-</table>
-
----
-
-## <img src="https://img.shields.io/badge/%24-github__stats-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`./fetch_stats.py --user IMApurbo`
+## `$ cat /etc/skill_matrix.conf`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=IMApurbo&show_icons=true&hide_border=true&bg_color=0A0E0A&title_color=599200&icon_color=FFD700&text_color=3D6600&rank_icon=percentile&include_all_commits=true&count_private=true&custom_title=IMApurbo%27s%20Terminal%20Stats" height="175" alt="GitHub Stats"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IMApurbo&layout=compact&hide_border=true&bg_color=0A0E0A&title_color=599200&text_color=3D6600&langs_count=8&custom_title=Languages%20in%20the%20Arsenal" height="175" alt="Top Languages"/>
+<h4>🔴 Offensive Security</h4>
+
+<img src="https://img.shields.io/badge/-Kali_Linux-599200?style=for-the-badge&logo=kalilinux&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Metasploit-599200?style=for-the-badge&logo=metasploit&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Burp_Suite-599200?style=for-the-badge&logo=burpsuite&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Nmap-599200?style=for-the-badge&logo=nmap&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Wireshark-599200?style=for-the-badge&logo=wireshark&logoColor=black"/>
+<img src="https://img.shields.io/badge/-SQLMap-599200?style=for-the-badge&logo=mysql&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Hydra-599200?style=for-the-badge&logo=gnubash&logoColor=black"/>
+
+<h4>🐍 Languages &amp; Frameworks</h4>
+
+<img src="https://img.shields.io/badge/-Python-599200?style=for-the-badge&logo=python&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Bash-599200?style=for-the-badge&logo=gnubash&logoColor=black"/>
+<img src="https://img.shields.io/badge/-JavaScript-599200?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/-C-599200?style=for-the-badge&logo=c&logoColor=black"/>
+<img src="https://img.shields.io/badge/-FastAPI-599200?style=for-the-badge&logo=fastapi&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Flask-599200?style=for-the-badge&logo=flask&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Node.js-599200?style=for-the-badge&logo=node.js&logoColor=black"/>
+
+<h4>🧠 AI / ML Stack</h4>
+
+<img src="https://img.shields.io/badge/-TensorFlow-599200?style=for-the-badge&logo=tensorflow&logoColor=black"/>
+<img src="https://img.shields.io/badge/-PyTorch-599200?style=for-the-badge&logo=pytorch&logoColor=black"/>
+<img src="https://img.shields.io/badge/-HuggingFace-599200?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/-scikit--learn-599200?style=for-the-badge&logo=scikitlearn&logoColor=black"/>
+<img src="https://img.shields.io/badge/-OpenCV-599200?style=for-the-badge&logo=opencv&logoColor=black"/>
+
+<h4>🛠️ Tools &amp; Infra</h4>
+
+<img src="https://img.shields.io/badge/-Docker-599200?style=for-the-badge&logo=docker&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Linux-599200?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Git-599200?style=for-the-badge&logo=git&logoColor=black"/>
+<img src="https://img.shields.io/badge/-VS_Code-599200?style=for-the-badge&logo=visualstudiocode&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Tor-599200?style=for-the-badge&logo=torproject&logoColor=black"/>
+<img src="https://img.shields.io/badge/-Proxychains-599200?style=for-the-badge&logo=gnubash&logoColor=black"/>
+
+</div>
+
+---
+
+## `$ ./fetch_stats.py --user IMApurbo`
+
+<div align="center">
+
+<!--
+  FIX: github-readme-stats public Vercel instance rate-limits constantly.
+  Using github-readme-stats.as93.net — a reliable community mirror.
+  Stats card + Top Languages both switched.
+-->
 
 </div>
 
 <div align="center">
 
-<!-- Streak stats — fire animation is CSS inside the served SVG -->
+<!-- Streak stats — demolab is reliable, no change needed -->
 <img src="https://streak-stats.demolab.com/?user=IMApurbo&hide_border=true&background=0A0E0A&stroke=599200&ring=FFD700&fire=ff4444&currStreakLabel=599200&sideLabels=3D6600&dates=3D6600&sideNums=8ACC00&currStreakNum=FFD700" width="65%" alt="GitHub Streak"/>
 
 </div>
 
 <div align="center">
 
-<!-- Activity graph — animated area fill -->
+<!-- Activity graph — reliable, no change needed -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=IMApurbo&bg_color=0A0E0A&color=599200&line=3D6600&point=FFD700&area=true&area_color=1a3300&hide_border=true&custom_title=Commit+Heatmap+%5BACTIVE+SESSION%5D" width="100%" alt="Activity Graph"/>
 
 </div>
 
 <div align="center">
 
-<!-- Trophies — fade-in animation -->
-<img src="https://github-profile-trophy.vercel.app/?username=IMApurbo&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7&title=MultiLanguage,Commits,Repositories,Stars,Followers,Issues,PullRequest" width="100%" alt="GitHub Trophies"/>
+<!--
+  FIX: removed Stars/MultiLanguage/Issues/PullRequest title filters —
+  they only appear once you hit rank thresholds.
+  Removed column=7 (too wide, causes layout break at low trophy count).
+  Using ryo-ma's own hosted instance which is most stable.
+-->
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/%24-ls%20-la%20.%2Fprojects%2F-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`ls -la ./projects/`
+## `$ ls -la ./projects/`
 
 <table align="center">
   <thead>
@@ -185,25 +174,7 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/%24-snk%20--contrib-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`./snake --eat-contributions`
-
-<div align="center">
-
-<!-- Animated contribution snake (setup GitHub Action: Platane/snk) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IMApurbo/IMApurbo/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IMApurbo/IMApurbo/output/github-contribution-grid-snake.svg"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/IMApurbo/IMApurbo/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
-
-</div>
-
-> [!NOTE]
-> **Snake setup** → Create `.github/workflows/snake.yml` using [Platane/snk](https://github.com/Platane/snk) to auto-generate the SVG on a schedule.
-
----
-
-## <img src="https://img.shields.io/badge/%24-curl%20quote.api-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`curl api.quote/hacker`
+## `$ curl api.quote/hacker`
 
 <div align="center">
 
@@ -213,7 +184,7 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/%24-connect-599200?style=flat-square&logo=gnubash&logoColor=black"/> &nbsp;`./establish_connection.sh`
+## `$ ./establish_connection.sh`
 
 <div align="center">
 
@@ -236,15 +207,13 @@
   <img src="https://img.shields.io/badge/-TryHackMe-599200?style=for-the-badge&logo=tryhackme&logoColor=black"/>
 </a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=IMApurbo&label=PROFILE+SCANS&color=599200&style=for-the-badge" alt="Profile views"/>
-
 </div>
 
 ---
 
-<!-- Animated wave footer — twinkling matches the header -->
+<!-- ════════════════════════════════════════════════════════
+     ANIMATED WAVE FOOTER — twinkling, reversed gradient
+     ════════════════════════════════════════════════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:599200,50:1a3300,100:0A0E0A&height=140&section=footer&text=Code%20with%20passion%2C%20hack%20with%20ethics&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"/>
 
 <div align="center">
