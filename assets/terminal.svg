@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <style>
+      .bg    { fill: #060A06; }
+      .frame { fill: none; stroke: #599200; stroke-width: 1.5; }
+      .tbar  { fill: #111a11; }
+      .dot1  { fill: #ff5f57; }
+      .dot2  { fill: #febc2e; }
+      .dot3  { fill: #28c840; }
+      .mono  {
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+      }
+      .green  { fill: #599200; }
+      .bright { fill: #8ACC00; }
+      .gold   { fill: #FFD700; }
+      .dim    { fill: #3D6600; }
+      .red    { fill: #ff4444; }
+      .cyan   { fill: #00cccc; }
+      .cursor { fill: #599200; animation: blink 1s step-end infinite; }
+
+      /* Each line types in with a delay */
+      .l1 { animation: typeIn 0.5s 0.5s  steps(60) both; }
+      .l2 { animation: typeIn 0.5s 1.2s  steps(60) both; }
+      .l3 { animation: typeIn 0.5s 1.9s  steps(60) both; }
+      .l4 { animation: typeIn 0.5s 2.6s  steps(60) both; }
+      .l5 { animation: typeIn 0.5s 3.3s  steps(60) both; }
+      .l6 { animation: typeIn 0.5s 4.0s  steps(60) both; }
+      .l7 { animation: typeIn 0.5s 4.7s  steps(60) both; }
+      .l8 { animation: typeIn 0.5s 5.4s  steps(60) both; }
+      .l9 { animation: typeIn 0.5s 6.1s  steps(60) both; }
+
+      .scanline { fill: none; stroke: #1a2e1a; stroke-width: 1; opacity: 0.25; }
+
+      @keyframes typeIn {
+        from { clip-path: inset(0 100% 0 0); opacity: 0; }
+        1%   { opacity: 1; }
+        to   { clip-path: inset(0 0% 0 0); opacity: 1; }
+      }
+      @keyframes blink {
+        0%,100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="200" class="bg"/>
+
+  <!-- Scanlines -->
+  <line x1="0" y1="25" x2="900" y2="25" class="scanline"/>
+  <line x1="0" y1="50" x2="900" y2="50" class="scanline"/>
+  <line x1="0" y1="75" x2="900" y2="75" class="scanline"/>
+  <line x1="0" y1="100" x2="900" y2="100" class="scanline"/>
+  <line x1="0" y1="125" x2="900" y2="125" class="scanline"/>
+  <line x1="0" y1="150" x2="900" y2="150" class="scanline"/>
+  <line x1="0" y1="175" x2="900" y2="175" class="scanline"/>
+
+  <!-- Terminal frame -->
+  <rect x="2" y="2" width="896" height="196" rx="8" class="frame" filter="url(#glow)"/>
+  <!-- Title bar -->
+  <rect x="3" y="3" width="894" height="28" rx="8" class="tbar"/>
+  <circle cx="18" cy="17" r="5" class="dot1"/>
+  <circle cx="34" cy="17" r="5" class="dot2"/>
+  <circle cx="50" cy="17" r="5" class="dot3"/>
+  <text x="450" y="21" text-anchor="middle" class="mono dim" font-size="11">root@imapurbo — bash — 900×200</text>
+  <line x1="3" y1="31" x2="897" y2="31" stroke="#3D6600" stroke-width="1"/>
+
+  <!-- Terminal lines -->
+  <text x="14" y="52" class="mono dim l1">Last login: Mon Aug 23 04:20:00 2026 on ttys001</text>
+
+  <text x="14" y="72" class="mono l2">
+    <tspan class="bright">┌──(</tspan><tspan class="red">root</tspan><tspan class="bright">㉿</tspan><tspan class="gold">imapurbo</tspan><tspan class="bright">)-[</tspan><tspan class="cyan">~</tspan><tspan class="bright">]</tspan>
+  </text>
+  <text x="14" y="88" class="mono l3">
+    <tspan class="bright">└─</tspan><tspan class="red"># </tspan><tspan class="green">whoami</tspan>
+  </text>
+  <text x="14" y="104" class="mono dim l4">→  ethical-hacker | python-dev | automation-wizard | security-researcher</text>
+
+  <text x="14" y="120" class="mono l5">
+    <tspan class="bright">└─</tspan><tspan class="red"># </tspan><tspan class="green">cat /etc/skills.conf</tspan>
+  </text>
+  <text x="14" y="136" class="mono l6">
+    <tspan class="dim">→  </tspan><tspan class="gold">PENTESTING</tspan><tspan class="dim"> | </tspan><tspan class="cyan">OSINT</tspan><tspan class="dim"> | </tspan><tspan class="green">AUTOMATION</tspan><tspan class="dim"> | </tspan><tspan class="red">EXPLOIT_DEV</tspan><tspan class="dim"> | </tspan><tspan class="bright">AI/NLP</tspan>
+  </text>
+
+  <text x="14" y="152" class="mono l7">
+    <tspan class="bright">└─</tspan><tspan class="red"># </tspan><tspan class="green">ls -la ./projects/</tspan>
+  </text>
+  <text x="14" y="168" class="mono l8">
+    <tspan class="dim">drwxr-xr-x  </tspan><tspan class="gold">fckr</tspan><tspan class="dim"> /  </tspan><tspan class="cyan">crawlerx</tspan><tspan class="dim"> /  </tspan><tspan class="green">nlpchat</tspan><tspan class="dim"> /  </tspan><tspan class="bright">+42 more...</tspan>
+  </text>
+
+  <text x="14" y="188" class="mono l9">
+    <tspan class="bright">└─</tspan><tspan class="red"># </tspan>
+  </text>
+  <rect x="42" y="176" width="8" height="14" class="cursor l9" filter="url(#glow)"/>
+</svg>
