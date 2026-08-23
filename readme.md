@@ -1,6 +1,1 @@
-![](1-banner.svg)
-![](2-about.svg)
-![](3-tech-stack.svg)
-![](4-github-stats.svg)
-![](5-projects.svg)
-![](6-connect.svg)
+<img src="profile-full.svg" width="100%" alt="profile"/>
