@@ -1,0 +1,37 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <linearGradient id="bgfp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d150d"/>
+      <stop offset="100%" stop-color="#070b07"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" fill="url(#bgfp)"/>
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#599200" stroke-width="1" opacity=".4"/>
+  <line x1="0" y1="259" x2="900" y2="259" stroke="#599200" stroke-width="1" opacity=".4"/>
+<g font-family="'Courier New',Courier,monospace" fill="#599200">
+    <text x="40" y="45" font-size="14" opacity=".6">$</text>
+    <text x="58" y="45" font-size="18" font-weight="700" letter-spacing="2">[ FEATURED_PROJECTS ]</text>
+    <rect x="267" y="30" width="8" height="15" fill="#599200">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.49;.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  </g><line x1="40" y1="60" x2="860" y2="60" stroke="#599200" stroke-width="0.5" opacity=".3"/>
+<rect x="40" y="70" width="820" height="50" rx="6" fill="none" stroke="#599200" stroke-width="0.7" opacity=".35"/>
+<g font-family="'Courier New',Courier,monospace">
+  <text x="56" y="92" font-size="14" font-weight="700" fill="#7ab800">fckr</text>
+  <text x="56" y="110" font-size="11.5" fill="#3d6600">High-performance brute-force tool for security research</text>
+  <text x="844" y="101" font-size="10.5" fill="#2a4800" text-anchor="end">pypi.org/project/fckr</text>
+</g>
+<rect x="40" y="136" width="820" height="50" rx="6" fill="none" stroke="#599200" stroke-width="0.7" opacity=".35"/>
+<g font-family="'Courier New',Courier,monospace">
+  <text x="56" y="158" font-size="14" font-weight="700" fill="#7ab800">crawlerx</text>
+  <text x="56" y="176" font-size="11.5" fill="#3d6600">Advanced web crawling framework for data extraction</text>
+  <text x="844" y="167" font-size="10.5" fill="#2a4800" text-anchor="end">pypi.org/project/crawlerx</text>
+</g>
+<rect x="40" y="202" width="820" height="50" rx="6" fill="none" stroke="#599200" stroke-width="0.7" opacity=".35"/>
+<g font-family="'Courier New',Courier,monospace">
+  <text x="56" y="224" font-size="14" font-weight="700" fill="#7ab800">nlpchat</text>
+  <text x="56" y="242" font-size="11.5" fill="#3d6600">Easy-to-use AI chatbot builder with NLP</text>
+  <text x="844" y="233" font-size="10.5" fill="#2a4800" text-anchor="end">pypi.org/project/nlpchat</text>
+</g>
+<text x="40" y="235" font-family="'Courier New',Courier,monospace" font-size="11" fill="#599200" opacity=".8">Pro tip: use these tools responsibly &amp; ethically — only on systems you own or have permission to test.</text>
+</svg>

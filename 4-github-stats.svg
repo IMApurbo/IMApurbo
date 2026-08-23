@@ -1,0 +1,20 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <linearGradient id="bggs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d150d"/>
+      <stop offset="100%" stop-color="#070b07"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" fill="url(#bggs)"/>
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#599200" stroke-width="1" opacity=".4"/>
+  <line x1="0" y1="259" x2="900" y2="259" stroke="#599200" stroke-width="1" opacity=".4"/>
+<g font-family="'Courier New',Courier,monospace" fill="#599200">
+    <text x="40" y="45" font-size="14" opacity=".6">$</text>
+    <text x="58" y="45" font-size="18" font-weight="700" letter-spacing="2">[ GITHUB_STATS ]</text>
+    <rect x="212" y="30" width="8" height="15" fill="#599200">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.49;.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  </g><line x1="40" y1="60" x2="860" y2="60" stroke="#599200" stroke-width="0.5" opacity=".3"/>
+<image href="https://github-readme-stats.vercel.app/api?username=IMApurbo&show_icons=true&hide_border=true&bg_color=0A0E0A&title_color=599200&icon_color=599200&text_color=3D6600&ring_color=599200" x="40" y="80" width="420" height="160" preserveAspectRatio="xMidYMid meet"/>
+<image href="https://github-readme-stats.vercel.app/api/top-langs/?username=IMApurbo&layout=compact&hide_border=true&bg_color=0A0E0A&title_color=599200&text_color=3D6600" x="480" y="80" width="380" height="160" preserveAspectRatio="xMidYMid meet"/>
+</svg>
