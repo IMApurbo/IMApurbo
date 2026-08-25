@@ -133,7 +133,6 @@
 ---
 
 ## `$ ls -la ./projects/`
-
 <table align="center">
   <thead>
     <tr>
@@ -145,6 +144,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><strong><a href="https://github.com/IMApurbo/acurist">acurist</a></strong></td>
+      <td><img src="https://img.shields.io/badge/AI%20AGENT-00A67E?style=flat-square"/></td>
+      <td>Lightweight terminal AI agent with a Claude-Code-style UI — shell commands, file editing, and search</td>
+      <td><a href="https://www.npmjs.com/package/acurist"><img src="https://img.shields.io/npm/v/acurist?color=CB3837&style=flat-square&label=npm"/></a></td>
+      <td><img src="https://img.shields.io/npm/dm/acurist?color=CB3837&style=flat-square"/></td>
+    </tr>
     <tr>
       <td><strong><a href="https://github.com/IMApurbo/fckr">fckr</a></strong></td>
       <td><img src="https://img.shields.io/badge/OFFENSIVE-red?style=flat-square"/></td>
@@ -168,7 +174,6 @@
     </tr>
   </tbody>
 </table>
-
 > [!CAUTION]
 > These tools are for **authorized testing only**. Always obtain **explicit written permission** before testing any system you do not own. Unauthorized access is illegal. 🛡️
 
